@@ -1,0 +1,413 @@
+*{
+  margin: 0;
+  font-family: times-new-roman;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #ccc;
+  background-size: cover;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(Pictures/Background.png);
+  font-family: verdana, sans-serif;
+}
+
+hr{
+  border-top: 1px solid black;
+  border-bottom: 1px solid grey;
+  margin: 0px;
+}
+
+a{
+  color: rgb(230 30 200);
+  text-decoration: none;
+}
+
+.topbox{
+  height: 30px;
+  padding: 20px;
+  background-color: rgb(40, 20, 50);
+  color: rgb(168, 34, 164);
+}
+
+
+
+.header-title{
+  width: 275px;
+  height: 100%;
+  float: left;
+}
+
+.header-title img{
+  display: block;
+  margin: 5px auto 0 auto;
+  border-radius: 20px;
+  height: 90%;
+  position: relative;
+  z-index: 20;
+}
+
+.header-title a{
+  vertical-align: middle;
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 20;
+}
+
+.header-top-container{
+  color: white;
+}
+
+.header-top-container h2{
+  position: relative;
+  top: 20px;
+  height: 70px;
+  padding-left: 10px;
+  font-family: arial;
+  font-size: 30px;
+}
+
+
+nav{
+  height: 35px;
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 20;
+}
+
+nav ul{
+  padding: 0px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+
+
+}
+
+nav li{
+  display: flex;
+  padding: 7px 25px 0px 0px;
+  font-size: 17px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+main{
+  overflow: hidden;
+  margin: 50px auto;
+  margin-bottom: 150px;
+  width: 78%;
+  background-color: #d7b3c8;
+  background: linear-gradient(to right, rgba(255,255,255,0.7), 10%, #efd4ec, 90%, rgba(255,255,255,0.7));
+}
+
+main header{
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 105px;
+	position: relative;
+	z-index: 1;
+	background-image: url(Pictures/Texture1.png);
+}
+
+main header::before{
+		background: linear-gradient(to right, rgba(111, 2, 124, 0.5), rgba(111, 2, 124, 0.5)), linear-gradient(to left, rgba(111, 2, 124, 0) 200px, #6f027c 430px);
+}
+
+main header:before{
+	content: "";
+	display: block;
+  position: absolute;
+  z-index: -1;
+	height: 100%;
+	width: 100%;
+
+}
+
+.maintext{
+  padding: 0px 20px;
+}
+
+.maintext h3{
+  padding: 10px 0px 0px 40px;
+}
+
+.maintext h4{
+  padding: 10px 0px 0px 50px;
+  font-size: 15px;
+}
+
+a{
+  font-weight: bold;
+}
+
+section p{
+  padding-top: 5px;
+  font-size:14px;
+  line-height: 150%;
+  background-color: inherit;
+  color: #3a3a3a;
+}
+
+section h2{
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+}
+
+section a:hover{
+  text-decoration: underline;
+}
+
+aside{
+  position: relative;
+  float: right;
+}
+
+table{
+  margin: 0px auto;
+  border:3px solid #ff1493;
+  border: 3px solid rgb(93, 12, 110);
+  width: 300px;
+  font-size: 88%;
+  line-height: 1.5em;
+}
+
+th{
+  background-color:#ff1493; color:#FFFFFF;
+  padding: 0px;
+  margin: -50px;
+}
+
+.test{
+  border: 3px solid purple;
+
+}
+
+.characters-content{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.characters-content a{
+  margin: 0px 18px;
+  margin-bottom: 10px;
+}
+
+.characters-content div{
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgb(93, 12, 110);
+  border-radius: 20px;
+  width: 160px;
+  height: 240px;
+  background-size: cover;
+  background-color: rgb(221 204 224);
+}
+
+.characters-content div:hover{
+  border: 3px solid rgb(196, 14, 193);
+}
+
+.characters-content h3{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 25px;
+  font-family: times-new-roman;
+  text-align: center;
+  color: purple;
+}
+
+.char-zephie{
+  background-image: url(Pictures/ProfileZephie.png);
+  background-position: center;
+}
+
+.char-tallie{
+  background-image: url(Pictures/Profile0Blank.png);
+  background-position: center;
+}
+
+.char-dex{
+  background-image: url(Pictures/Profile0Blank.png);
+  background-position: center;
+}
+
+.char-jate{
+  background-image: url(Pictures/Profile0Blank.png);
+  background-position: center;
+}
+
+.char-typhe{
+  background-image: url(Pictures/ProfileTyphe.png);
+  background-position: center;
+}
+
+
+.infobox{
+  overflow: hidden;
+  margin: 20px;
+  margin-right: 0px;
+  border: 3px solid rgb(93, 12, 110);
+  border-radius: 10px;
+  width: 300px;
+  background-color: #d7c2db;
+  text-align: center;
+  font-family: times-new-roman;
+}
+
+
+.infobox h2{
+  left: 0;
+  right: 0;
+  margin: 5px;
+  padding: 5px 0px;
+  background-color: rgb(93, 12, 110);
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.infobox #info-header{
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 2px;
+  font-size: 25px;
+}
+
+.infobox-tabs{
+  margin: -5px -2px;
+  border: 1px solid rgb(93, 12, 110);
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: arial;
+}
+
+.infobox-tabs h3{
+  border: 1px solid rgb(93, 12, 110);
+  padding: 5px;
+  flex-grow: 1;
+  font-family: arial;
+}
+
+.infobox-tabs h3:hover{
+  background-color: rgb(245 236 247);
+  cursor: pointer;
+}
+
+.infobox img{
+  margin-top: 5px;
+  width: 100%;
+}
+
+.infobox section{
+  padding: 0px;
+}
+
+.infobox-item{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 30% 70%;
+  margin-top: -2px;
+  border-top: 2px solid purple;
+  border-bottom: 2px solid purple;
+  padding: 10px;
+  text-align: left;
+}
+
+.infobox-item h3{
+  font-size: 14px;
+}
+
+.infobox-item h4{
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: arial;
+  font-weight: inherit;
+}
+
+
+.wikia-rail{
+  margin: 0px;
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.wikia-rail div{
+  margin: 10px;
+  border: 4px solid #f3f722;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #f3f5bd;
+}
+
+.wikia-rail h2{
+  text-align: center;
+}
+
+.map{
+  width: 70%;
+}
+
+.map img{
+  position: relative;
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.map h4{
+  position: absolute;
+  color: black;
+  font-size: 10px;
+}
+
+.map-selection{
+  word-wrap: break-word;
+  width: 300px;
+  padding: 10px 0px;
+}
+
+.main-footer{
+  clear: both;
+  padding: 20px 0px 0px 0px;
+  width: 1013px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.main-footer h2{
+  text-align: center;
+}
+
+.main-footer img{
+  text-align: left;
+  padding: 10px;
+}
+
+footer{
+  display: flex;
+  margin: auto;
+  padding: 75px 200px;
+  background-color: rgb(40, 20, 50);
+  color: #ccc;
+}
